@@ -21,7 +21,7 @@ ark-ec = "0.4.2"
 ark-ff = "0.4.2"
 ark-serialize = "0.4.2"
 
-rug = { version = "1.19.2", features = ["serde"], optional = true }
+rug = { version = "1.27", features = ["serde"], optional = true }
 
 [features]
 cl03 = ["zkryptium/cl03", "rug"]
